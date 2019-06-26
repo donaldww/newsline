@@ -60,8 +60,8 @@ dependencies:
   shared_preferences: any
 
   # To execute code in background periodically
-  android_alarm_manager: 
-    path: ../android_alarm_manager/
+  # android_alarm_manager:
+  #   android_alarm_manager: ^0.4.1+6
 
   # To display notifications
   flutter_local_notifications: ^0.7.1+3
