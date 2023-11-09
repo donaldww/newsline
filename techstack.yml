@@ -1,0 +1,363 @@
+repo_name: donaldww/newsline
+report_id: 6a66e4b368c63f59bdd56650fcf3b7dd
+repo_type: Public
+timestamp: '2023-11-09T17:24:42+00:00'
+requested_by: donaldww
+provider: github
+branch: master
+detected_tools_count: 28
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 00:44:54.000000000 Z
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '28.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-19 13:42:45.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: android/app/build.gradle
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 00:03:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 00:03:21.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '9.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-19 13:42:45.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 01:01:01.000000000 Z
+- name: cached_network_image
+  description: Flutter library to load and cache network images
+  package_url: https://pub.dartlang.org/cached_network_image
+  version: 0.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 20:57:56.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  version: 0.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: flutter_custom_tabs
+  description: A Flutter plugin for mobile apps to launch a URL in Custom Tabs/SFSafariViewController
+  package_url: https://pub.dartlang.org/flutter_custom_tabs
+  version: 0.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: flutter_local_notifications
+  description: A cross platform plugin for displaying and scheduling local notifications
+    for Flutter applications with the ability to customise for each platform
+  package_url: https://pub.dartlang.org/flutter_local_notifications
+  version: 0.7.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: flutter_svg
+  description: An SVG rendering and widget library for Flutter
+  package_url: https://pub.dartlang.org/flutter_svg
+  version: 0.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: font_awesome_flutter
+  description: The Font Awesome Icon pack available as Flutter Icons
+  package_url: https://pub.dartlang.org/font_awesome_flutter
+  version: 8.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: geolocator
+  description: Geolocation plugin for Flutter
+  package_url: https://pub.dartlang.org/geolocator
+  version: 5.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 23:08:20.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  version: 0.12.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 00:56:23.000000000 Z
+  vulnerabilities:
+  - name: http before 0.13.3 vulnerable to header injection
+    cve_id: CVE-2020-35669
+    cve_url: https://github.com/advisories/GHSA-4rgh-jx4f-qfcq
+    detected_date: Nov 9
+    severity: moderate
+    first_patched: 0.13.3
+- name: intl
+  description: Contains code to deal with internationalized/localized messages
+  package_url: https://pub.dartlang.org/intl
+  version: 0.15.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-19 23:31:24.000000000 Z
+- name: liquid_pull_to_refresh
+  description: A beautiful and custom refresh indicator with some cool animations
+    and transitions for flutter
+  package_url: https://pub.dartlang.org/liquid_pull_to_refresh
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-22 04:03:11.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 0.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-19 23:31:24.000000000 Z
+- name: provider
+  description: A wrapper around InheritedWidget to make them easier to use and more
+    reusable
+  package_url: https://pub.dartlang.org/provider
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-19 23:31:24.000000000 Z
+- name: rxdart
+  description: RxDart is an implementation of the popular reactiveX api for asynchronous
+    programming
+  package_url: https://pub.dartlang.org/rxdart
+  version: 0.22.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 11:53:22.000000000 Z
+- name: share
+  description: Flutter plugin for sharing content via the platform share UI
+  package_url: https://pub.dartlang.org/share
+  version: 0.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 20:57:56.000000000 Z
+- name: shared_preferences
+  description: Flutter plugin for reading and writing simple key-value pairs
+  package_url: https://pub.dartlang.org/shared_preferences
+  version: 0.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-20 20:57:56.000000000 Z
+- name: sqflite
+  description: Flutter plugin for SQLite
+  package_url: https://pub.dartlang.org/sqflite
+  version: 1.1.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 00:56:23.000000000 Z
+- name: test
+  description: A full featured library for writing and running Dart tests across platforms
+  package_url: https://pub.dartlang.org/test
+  version: 1.6.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.lock
+  detection_source: pubspec.yaml
+  last_updated_by: Ayush Shekhar
+  last_updated_on: 2019-06-18 01:01:01.000000000 Z
